@@ -14,8 +14,6 @@ function loadRepos() {
 
 }
 
-// way without adding the id load
-
 function loadRepos() {
    const url = 'https://api.github.com/users/testnakov/repos';
 
