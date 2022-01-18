@@ -1,21 +1,31 @@
-function lockedProfile() {
-    Array.from(document.querySelectorAll('.profile button'))
-        .forEach(b => b.addEventListener('click', onToggle))
+async function lockedProfile() {
+    const main = document.querySelector('main')
+    const url = `http://localhost:3030/jsonstore/advanced/profiles`
+    const res = await fetch(url)
+    const data = await res.json()
+    Object.values(data).forEach(profile => {
+        // main.replaceChildren()
+        const element = document.createElement('div')
+        element.className = 'profile'
+        element.innerHTML =`<img src="./iconProfile2.png" class="userIcon" />
+<label>Lock</label>
+<input type="radio" name="user1Locked" value="lock" checked>
+<label>Unlock</label>
+<input type="radio" name="user1Locked" value="unlock"><br>
+<hr>
+<label>Username</label>
+<input type="text" name="user1Username" value="" disabled readonly />
+<div class="hiddenInfo">
+    <hr>
+    <label>Email:</label>
+    <input type="email" name="user1Email" value="" disabled readonly />
+    <label>Age:</label>
+    <input type="email" name="user1Age" value="" disabled readonly />
+</div>
 
-    function onToggle(e) {
-        const profile = e.target.parentElement
-        const isActive = profile.querySelector('input[type="radio"][value="unlock"]').checked
-        const infoDiv = profile.querySelector('div');
-        console.log(isActive)
+<button>Show more</button>`
 
-        if(isActive){
-            if (e.target.textContent === 'Show more'){
-                infoDiv.style.display = 'block';
-                e.target.textContent = 'Hide it'
-            } else {
-                infoDiv.style.display = 'none';
-                e.target.textContent = 'Show more'
-            }
-        }
-    }
+
+        main.appendChild(element)
+    })
 }
