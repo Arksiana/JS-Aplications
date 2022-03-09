@@ -1,0 +1,31 @@
+body {
+    width: 980px;
+    margin: auto;
+    font-size: 24px
+}
+
+article {
+    margin: 32px 0;
+    box-shadow: 0px 0px 15px 5px #999;
+    padding: 32px
+}
+
+article footer {
+    color: #999;
+}
+
+.red {
+    background-color: rgb(248, 166, 166)
+}
+
+.blue {
+    background-color: rgb(145, 181, 248)
+}
+
+.green {
+    background-color: rgb(168, 247, 248)
+}
+
+.pink {
+    background-color: rgb(248, 150, 248)
+}

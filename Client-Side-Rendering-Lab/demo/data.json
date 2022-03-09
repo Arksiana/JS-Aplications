@@ -1,0 +1,23 @@
+[
+    {
+        "title": "First Article",
+        "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem corporis nulla laudantium magnam quibusdam harum, natus modi.",
+        "author": "John Smith"
+    },
+    {
+        "title": "Second Article",
+        "content": "Nostrum quidem maxime sint dolor quia explicabo quis numquam, obcaecati repellendus deserunt sunt, ipsum voluptatibus, illo expedita qui tempora ducimus odit non. Incidunt esse aperiam non.",
+        "author": "Peter Johson"
+    },
+    {
+        "title": "Third Article",
+        "content": "Repudiandae ducimus ipsa omnis ex vero maxime veniam ipsum praesentium consequuntur. Eum consequuntur blanditiis at inventore perferendis, pariatur deleniti possimus rerum dolore quas repudiandae, praesentium natus, sapiente magnam tempora aperiam dolores? Nostrum dolores numquam quisquam atque cumque sequi quam. Veniam suscipit voluptatem, temporibus placeat iste deserunt quis doloremque expedita. Iusto aut eveniet quas, veniam animi repellendus in.",
+        "author": "Marie Curie"
+    }, 
+    {
+        "title": "Four Article",
+        "content": "Repudiandae ducimus ipsa omnis ex vero maxime veniam ipsum praesentium consequuntur. Eum consequuntur blanditiis at inventore perferendis, pariatur deleniti possimus rerum dolore quas repudiandae, praesentium natus, sapiente magnam tempora aperiam dolores? Nostrum dolores numquam quisquam atque cumque sequi quam. Veniam suscipit voluptatem, temporibus placeat iste deserunt quis doloremque expedita. Iusto aut eveniet quas, veniam animi repellendus in.",
+        "author": "Marie Curie"
+    }
+
+]
